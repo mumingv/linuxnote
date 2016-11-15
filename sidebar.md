@@ -1,4 +1,4 @@
-# [标题]()
+# [Linux 笔记]()
 
 作者：[木名](https://github.com/mumingv) (木名)
 
@@ -6,8 +6,9 @@
 
 ## 目录
 0. [前言](#README)
+0. [参考资料](#docs/ref)
 
-## 鸟哥的Linux私房菜基础篇（第三版）
+## 《鸟哥的Linux私房菜基础篇（第三版）》
 0. [前言](#docs/vbird_0)
 0. [第23章 软件安装：RPM、SRPM与YUM功能](#docs/vbird_23)
 
