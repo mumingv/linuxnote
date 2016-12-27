@@ -8,6 +8,10 @@
 0. [前言](#README)
 0. [参考资料](#docs/ref)
 
+
+## vim
+0. [FAQ](#docs/vim_faq)
+
 ## 《鸟哥的Linux私房菜基础篇（第三版）》
 0. [前言](#docs/vbird_0)
 0. [第23章 软件安装：RPM、SRPM与YUM功能](#docs/vbird_23)
