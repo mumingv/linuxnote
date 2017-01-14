@@ -68,6 +68,8 @@ gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 # yum makecache
 ```
 
+注：将epel相关repo配置文件中的gpgcheck配置参数设置为0，可以避免gpgcheck失败导致的问题。
+
 
 ### 安装remi源
 
@@ -79,6 +81,8 @@ gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 # yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 # yum makecache
 ```
+
+注：将remi相关repo配置文件中的gpgcheck配置参数设置为0，可以避免gpgcheck失败导致的问题。
 
 
 ### 补充
