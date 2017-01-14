@@ -6,6 +6,7 @@
 
 ## 目录
 0. [前言](#README)
+0. [FAQ](#docs/faq)
 0. [参考资料](#docs/ref)
 
 
