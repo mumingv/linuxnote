@@ -118,3 +118,29 @@ repolist: 22,961
 ```
 
 
+## 如何使用非root用户设置程序的开机启动？
+
+以开机时自动使用work账号启动nginx和php-fpm程序为例。
+
+1.准备执行脚本，包含启动程序的命令。
+
+```
+$ cat git/linux/script/startup.sh 
+#!/bin/sh
+/home/work/bdp/webserver/loadnginx.sh restart
+/home/work/bdp/php/sbin/php-fpm restart
+```
+
+2.将使用work账号执行脚本的命令放入rc.local文件，并给该文件增加可执行权限。
+
+```
+$ cat /etc/rc.d/rc.local 
+#!/bin/bash
+#...
+su work -c "sh /home/work/git/linux/script/startup.sh"
+```
+```
+chmod +x /etc/rc.d/rc.local
+```
+
+
