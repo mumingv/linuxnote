@@ -87,7 +87,7 @@ gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 
 ### 补充
 
-查看目前激活的repo。
+1.查看目前激活的repo。
 
 ```
 # yum repolist
@@ -101,8 +101,20 @@ updates/7/x86_64        CentOS-7 - Updates - mirrors.aliyun.com                 
 repolist: 22,961
 ```
 
-gpgkey存放目录：
+2.gpgkey存放目录：
 
 ```
 /etc/pki/rpm-gpg
 ```
+
+3.将php56版本安装到/usr/bin目录，而不是/opt/remi/php56目录。
+
+禁用remi-safe，启用remi-php56。
+
+```
+# yum-config-manager --disable remi-safe
+# yum-config-manager --enable remi-php56
+# yum install php
+```
+
+
