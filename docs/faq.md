@@ -144,3 +144,11 @@ chmod +x /etc/rc.d/rc.local
 ```
 
 
+## 如何查询CPU的核数？
+
+```
+$ grep processor /proc/cpuinfo | wc -l  
+12
+```
+
+
