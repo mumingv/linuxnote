@@ -11,6 +11,7 @@
 
 
 ## vim
+0. [基本语法](#docs/vim_basic_syntax)
 0. [FAQ](#docs/vim_faq)
 
 ## 《鸟哥的Linux私房菜基础篇（第三版）》
