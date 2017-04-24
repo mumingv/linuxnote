@@ -47,4 +47,8 @@ public static $cityAlias = array(
 <font color="red">注意：vim的s命令使用的是基本正则表达式语法，其中的字符'('和')'表示字面意义，使用时需要转义。</font>
 
 
+## vim打开文件时中文显示乱码？
+
+参考：http://edyfox.codecarver.org/html/vim_fileencodings_detection.html
+
 
