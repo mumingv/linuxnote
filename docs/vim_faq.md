@@ -52,3 +52,11 @@ public static $cityAlias = array(
 参考：http://edyfox.codecarver.org/html/vim_fileencodings_detection.html
 
 
+## 如何删除包含某个字符串的行？
+
+### 示例：删除包含“最新”的行
+
+```
+:g/最新/d
+```
+
