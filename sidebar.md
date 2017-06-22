@@ -10,6 +10,10 @@
 0. [参考资料](#docs/ref)
 
 
+## mac
+0. [FAQ](#docs/mac_faq)
+
+
 ## vim
 0. [基本语法](#docs/vim_basic_syntax)
 0. [快捷键汇总](#docs/vim_shortcutkey_all)
