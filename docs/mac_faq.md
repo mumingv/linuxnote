@@ -11,3 +11,17 @@ if [ "${BASH-no}" != "no" ]; then
 fi
 ```
 
+
+## 如何使用SecureCRT登陆mac本机？
+
+开启ssh服务即可：
+
+```
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl list | grep ssh
+```
+
+注意：登陆名为xxxmacBook-Pro，而不是xxxdeMacBook-Pro.local。
+
+
+
